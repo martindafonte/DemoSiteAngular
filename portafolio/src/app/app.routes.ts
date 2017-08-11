@@ -6,10 +6,10 @@ import {
 
 
 const routes: Routes = [
-    { path: '', component: PortfolioComponent },
+    { path: 'home', component: PortfolioComponent },
     { path: 'about', component: AboutComponent },
     { path: 'item', component: ItemComponent },
-    { path: '**', pathMatch: 'full', redirectTo: '' }
+    { path: '**', pathMatch: 'full', redirectTo: 'home' }
     //{ path: 'staticPath', component: ... },
     //{ path: 'oldPath', redirectTo: '/staticPath' },
     //{ path: ..., component: ..., data: { message: 'Custom' }
