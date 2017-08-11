@@ -6,7 +6,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { AboutComponent } from './components/about/about.component';
-import { ItemsComponent } from './components/item/item.component';
+import { ItemComponent } from './components/item/item.component';
+
+import { app_routing } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,11 @@ import { ItemsComponent } from './components/item/item.component';
     FooterComponent,
     PortfolioComponent,
     AboutComponent,
-    ItemsComponent
+    ItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    app_routing
   ],
   providers: [],
   bootstrap: [AppComponent]
