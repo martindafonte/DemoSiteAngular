@@ -16,7 +16,7 @@ export class ProductosService {
       this.http.get('https://demoappangular.firebaseio.com/productos_idx.json')
         .subscribe(res => {
           setTimeout(() => {
-            console.log(res.json());
+            // console.log(res.json());
             this.productos = res.json();
             this.cargando_productos = false;
             
