@@ -13,7 +13,7 @@ export class ItemComponent implements OnInit {
   producto: any = undefined;
   codigo: string;
 
-  constructor(private route: ActivatedRoute, private _ps: ProductosService) {
+  constructor(private route: ActivatedRoute, public _ps: ProductosService) {
     route.params.subscribe(parametros => {
       this.codigo = parametros['id'];
       _ps.cargar_producto(this.codigo).subscribe(res => {

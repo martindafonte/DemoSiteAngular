@@ -12,6 +12,9 @@ Librerías y herramientas:
 
 - https://daneden.github.io/animate.css/
 - https://firebase.google.com/pricing/
+- https://console.firebase.google.com/project/demoappangular/database/data/
+- http-server
+- https://codepen.io/Klerith/pen/RZpwKm
 
 
 
@@ -25,3 +28,5 @@ firebase deploy
 *Compilar local o firebase hosting*
 ng build --prod --base-href "file:///C:/Develop/Node/DemoAngularGithubPages/DemoSiteAngular/portafolio/dist/"  --deploy-url "
 file:///C:/Develop/Node/DemoAngularGithubPages/DemoSiteAngular/portafolio/dist/"
+
+npm install http-server -g
