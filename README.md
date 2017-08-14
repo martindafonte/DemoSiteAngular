@@ -32,3 +32,7 @@ file:///C:/Develop/Node/DemoAngularGithubPages/DemoSiteAngular/portafolio/dist/"
 npm install http-server -g
 
 ng build --env=prod --prod
+
+
+http://shermandigital.com/blog/deploy-an-angular-cli-application-to-github-pages/
+http://shermandigital.com/blog/fix-404-errors-from-angular-projects-hosted-on-github-pages/
