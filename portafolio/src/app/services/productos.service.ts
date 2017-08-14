@@ -25,4 +25,8 @@ export class ProductosService {
         , err => console.log(err));
     }
   }
+
+  public cargar_producto(cod:string) {
+    return this.http.get(`https://demoappangular.firebaseio.com/productos/${cod}.json`);
+  }
 }
