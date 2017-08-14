@@ -18,7 +18,7 @@ export class InformacionService {
   public carga_info() {
     this.http.get("assets/data/info.pagina.json")
       .subscribe(data => {
-        console.log(data.json());
+        // console.log(data.json());
         this.info = data.json();
         this.data_loaded = true;
       });
@@ -27,7 +27,7 @@ export class InformacionService {
   carga_sobre_nosotros() {
     this.http.get("https://demoappangular.firebaseio.com/equipo.json")
       .subscribe(data => {
-        console.log(data.json());
+        // console.log(data.json());
         this.equipo = data.json();
         this.sobre_nosotros_loaded = true;
       });

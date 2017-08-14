@@ -57,7 +57,6 @@ export class ProductosService {
       if (prod.categoria.toLowerCase().indexOf(termino) >= 0
         || prod.titulo.toLowerCase().indexOf(termino) >= 0) {
         this.productos_filtrado.push(prod);
-        console.log(prod);
       }
     });
   }
