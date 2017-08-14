@@ -30,3 +30,5 @@ ng build --prod --base-href "file:///C:/Develop/Node/DemoAngularGithubPages/Demo
 file:///C:/Develop/Node/DemoAngularGithubPages/DemoSiteAngular/portafolio/dist/"
 
 npm install http-server -g
+
+ng build --env=prod --prod
